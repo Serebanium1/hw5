@@ -3,6 +3,8 @@ fun main() {
     val total = 1_000_000
     val fee = calculateFee(amount, total, true)
     println(fee)
+    val fee2 = calculateFee(amount, total)
+    println(fee2)
 }
 
 fun calculateFee(
